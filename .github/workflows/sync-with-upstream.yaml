@@ -18,6 +18,7 @@ jobs:
       REPO_TO_TRACK_HIVE:     openshift/hive:stolostron-engine/tracking-openshift-hive
       BRANCHES_TO_TRACK_HIVE: ocm-2.5-mce-2.0:backplane-2.0
 
+
       REPO_TO_TRACK_AI_1:     openshift/assisted-image-service:stolostron-engine/tracking-openshift-assisted-image-service
       BRANCHES_TO_TRACK_AI_1: release-ocm-2.6:backplane-2.1 release-ocm-2.5:backplane-2.0
 
@@ -30,8 +31,30 @@ jobs:
       REPO_TO_TRACK_AI_4:     openshift/assisted-service:stolostron-engine/tracking-openshift-assisted-service
       BRANCHES_TO_TRACK_AI_4: release-ocm-2.6:backplane-2.1 release-ocm-2.5:backplane-2.0
 
+
       REPO_TO_TRACK_HS_1:     openshift/hypershift:stolostron-engine/tracking-openshift-hypershift
       BRANCHES_TO_TRACK_HS_1: release-4.10:backplane-2.0
+
+      REPO_TO_TRACK_HS_2:     openshift/apiserver-network-proxy:stolostron-engine/tracking-openshift-apiserver-network-proxy
+      BRANCHES_TO_TRACK_HS_2: master:backplane-2.0
+
+      REPO_TO_TRACK_HS_3:     openshift/aws-encryption-provider:stolostron-engine/tracking-openshift-aws-encryption-provider
+      BRANCHES_TO_TRACK_HS_3: backplane-2.0:backplane-2.0
+
+      REPO_TO_TRACK_HS_4:     openshift/cluster-api:stolostron-engine/tracking-openshift-cluster-api
+      BRANCHES_TO_TRACK_HS_4: release-1.0:backplane-2.0
+
+      REPO_TO_TRACK_HS_5:     openshift/cluster-api-provider-agent:stolostron-engine/tracking-openshift-cluster-api-provider-agent
+      BRANCHES_TO_TRACK_HS_5: master:backplane-2.0
+
+      REPO_TO_TRACK_HS_6:     openshift/cluster-api-provider-aws:stolostron-engine/tracking-openshift-cluster-api-provider-aws
+      BRANCHES_TO_TRACK_HS_6: release-1.1:backplane-2.0
+
+      REPO_TO_TRACK_HS_7:     openshift/cluster-api-provider-azure:stolostron-engine/tracking-openshift-cluster-api-provider-azure
+      BRANCHES_TO_TRACK_HS_7: release-1.2:backplane-2.0
+
+      REPO_TO_TRACK_HS-8:     openshift/cluster-api-provider-kubevirt:stolostron-engine/tracking-openshift-cluster-api-provider-kubevirt
+      BRANCHES_TO_TRACK_HS-8: release-1.0:backplane-2.0
 
     steps:
     - name: Check out sync tools
