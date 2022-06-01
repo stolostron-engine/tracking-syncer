@@ -53,8 +53,8 @@ jobs:
       REPO_TO_TRACK_HS_7:     openshift/cluster-api-provider-azure:stolostron-engine/tracking-openshift-cluster-api-provider-azure
       BRANCHES_TO_TRACK_HS_7: release-1.2:backplane-2.0
 
-      REPO_TO_TRACK_HS-8:     openshift/cluster-api-provider-kubevirt:stolostron-engine/tracking-openshift-cluster-api-provider-kubevirt
-      BRANCHES_TO_TRACK_HS-8: release-1.0:backplane-2.0
+      REPO_TO_TRACK_HS_8:     openshift/cluster-api-provider-kubevirt:stolostron-engine/tracking-openshift-cluster-api-provider-kubevirt
+      BRANCHES_TO_TRACK_HS_8: release-1.0:backplane-2.0
 
     steps:
     - name: Check out sync tools
