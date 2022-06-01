@@ -56,6 +56,9 @@ jobs:
       REPO_TO_TRACK_HS_8:     openshift/cluster-api-provider-kubevirt:stolostron-engine/tracking-openshift-cluster-api-provider-kubevirt
       BRANCHES_TO_TRACK_HS_8: release-1.0:backplane-2.0
 
+      REPO_TO_TRACK_STO_TEMP_1:     stolostron/backplane-operator:stolostron-engine/backplane-operator
+      BRANCHES_TO_TRACK_STO_TEMP_1: backplane-2.1:backplane-2.1 backplane-2.0:backplane-2.0 main:main
+
     steps:
     - name: Check out sync tools
       uses: actions/checkout@v3
