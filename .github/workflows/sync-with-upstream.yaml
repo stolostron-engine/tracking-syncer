@@ -15,7 +15,7 @@ jobs:
       GITHUB_TOKEN: ${{ secrets.FF_GITHUB_TOKEN }}
       LOG_DESTINATION: stolostron-engine/tracking-syncer:main
 
-      REPO_TO_TRACK_1: openshift/hypershift:stolostron/tracking-openshift-hypershift
+      REPO_TO_TRACK_1: openshift/hypershift:stolostron-engine/tracking-openshift-hypershift
       BRANCHES_TO_TRACK_1: release-4.10:backplane-2.0
 
     steps:
