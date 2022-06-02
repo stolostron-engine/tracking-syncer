@@ -62,11 +62,8 @@ jobs:
       REPO_TO_TRACK_STO_BPO_TEMP_1:     stolostron/backplane-operator:stolostron-engine/backplane-operator
       BRANCHES_TO_TRACK_STO_BPO_TEMP_1: backplane-2.1:backplane-2.1 backplane-2.0:backplane-2.0 main:main
 
-      REPO_TO_TRACK_STO_BPO_TEMP_2:     stolostron/backplane-operator-test:stolostron-engine/backplane-operator-test
+      REPO_TO_TRACK_STO_BPO_TEMP_2:     stolostron/backplane-must-gather:stolostron-engine/backplane-must-gather
       BRANCHES_TO_TRACK_STO_BPO_TEMP_2: backplane-2.0:backplane-2.0
-
-      REPO_TO_TRACK_STO_BPO_TEMP_3:     stolostron/backplane-must-gather:stolostron-engine/backplane-must-gather
-      BRANCHES_TO_TRACK_STO_BPO_TEMP_3: backplane-2.0:backplane-2.0
 
       REPO_TO_TRACK_STO_CLC_TEMP_1:     stolostron/clusterlifecycle-state-metrics:stolostron-engine/clusterlifecycle-state-metrics
       BRANCHES_TO_TRACK_STO_CLC_TEMP_1: backplane-2.0:backplane-2.0
@@ -76,6 +73,18 @@ jobs:
 
       REPO_TO_TRACK_STO_CLC_TEMP_3:     stolostron/cluster-curator-controller:stolostron-engine/cluster-curator-controller
       BRANCHES_TO_TRACK_STO_CLC_TEMP_3: backplane-2.0:backplane-2.0
+
+      REPO_TO_TRACK_STO_CON_TEMP_1:     stolostron/console:stolostron-engine/console
+      BRANCHES_TO_TRACK_STO_CON_TEMP_1: backplane-2.0:backplane-2.0
+
+      REPO_TO_TRACK_STO_DIS_TEMP_1:     stolostron/discovery:stolostron-engine/discovery
+      BRANCHES_TO_TRACK_STO_DIS_TEMP_1: backplane-2.0:backplane-2.0
+
+      REPO_TO_TRACK_STO_DIS_TEMP_2:     stolostron/ :stolostron-engine/
+      BRANCHES_TO_TRACK_STO_DIS_TEMP_2: backplane-2.0:backplane-2.0
+
+      REPO_TO_TRACK_STO_DIS_TEMP_3:     stolostron/ :stolostron-engine/
+      BRANCHES_TO_TRACK_STO_DIS_TEMP_3: backplane-2.0:backplane-2.0
 
     steps:
     - name: Check out sync tools
