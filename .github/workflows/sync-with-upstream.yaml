@@ -57,12 +57,12 @@ jobs:
       BRANCHES_TO_TRACK_HS_8: release-1.0:backplane-2.0
 
 
-      REPO_TO_TRACK_STO_BLD_TEMP_1:     stolostron/release:stolostron-engine/release
-      BRANCHES_TO_TRACK_STO_BLD_TEMP_1: backplane-2.1:backplane-2.1 backplane-2.0:backplane-2.0 master:master
+      REPO_TO_TRACK_STO_BLD_TEMP_1:     stolostron/release:stolostron-engine
+      BRANCHES_TO_TRACK_STO_BLD_TEMP_1: backplane-2.1 backplane-2.0 master
 
 
-      REPO_TO_TRACK_STO_BPO_TEMP_1:     stolostron/backplane-operator:stolostron-engine/backplane-operator
-      BRANCHES_TO_TRACK_STO_BPO_TEMP_1: backplane-2.1:backplane-2.1 backplane-2.0:backplane-2.0 main:main
+      REPO_TO_TRACK_STO_BPO_TEMP_1:     stolostron/backplane-operator:stolostron-engine
+      BRANCHES_TO_TRACK_STO_BPO_TEMP_1: backplane-2.1 backplane-2.0 main
 
       REPO_TO_TRACK_STO_BPO_TEMP_2:     stolostron/backplane-must-gather:stolostron-engine/backplane-must-gather
       BRANCHES_TO_TRACK_STO_BPO_TEMP_2: backplane-2.1:backplane-2.1 backplane-2.0:backplane-2.0 main:main
