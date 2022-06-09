@@ -108,16 +108,16 @@ jobs:
       REPO_TO_TRACK_STO_SF_TEMP_1:      stolostron/placement:stolostron-engine
       BRANCHES_TO_TRACK_STO_SF_TEMP_1:  backplane-2.1 backplane-2.0 main
 
-      REPO_TO_TRACK_STO_SF_TEMP_2:      stolostron/multicloud-operators-foundation:stolostron-engine
-      BRANCHES_TO_TRACK_STO_SF_TEMP_2:  backplane-2.0 main
+      REPO_TO_TRACK_STO_SF_TEMP_2:      stolostron/registration:stolostron-engine
+      BRANCHES_TO_TRACK_STO_SF_TEMP_2:  backplane-2.1 backplane-2.0 main
 
-      REPO_TO_TRACK_STO_SF_TEMP_3:      stolostron/registration:stolostron-engine
-      BRANCHES_TO_TRACK_STO_SF_TEMP_3:  backplane-2.0 main
+      REPO_TO_TRACK_STO_SF_TEMP_3:      stolostron/registration-operator:stolostron-engine
+      BRANCHES_TO_TRACK_STO_SF_TEMP_3:  backplane-2.1 backplane-2.0 main
 
-      REPO_TO_TRACK_STO_SF_TEMP_4:      stolostron/registration-operator:stolostron-engine
-      BRANCHES_TO_TRACK_STO_SF_TEMP_4:  backplane-2.0 main
+      REPO_TO_TRACK_STO_SF_TEMP_4:      stolostron/work:stolostron-engine
+      BRANCHES_TO_TRACK_STO_SF_TEMP_4:  backplane-2.1 backplane-2.0 main
 
-      REPO_TO_TRACK_STO_SF_TEMP_5:      stolostron/work:stolostron-engine
+      REPO_TO_TRACK_STO_SF_TEMP_5:      stolostron/multicloud-operators-foundation:stolostron-engine
       BRANCHES_TO_TRACK_STO_SF_TEMP_5:  backplane-2.0 main
 
     steps:
