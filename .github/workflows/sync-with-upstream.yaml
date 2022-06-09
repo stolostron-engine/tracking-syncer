@@ -74,7 +74,7 @@ jobs:
       REPO_TO_TRACK_STO_CLC_TEMP_2:     stolostron/clusterclaims-controller:stolostron-engine
       BRANCHES_TO_TRACK_STO_CLC_TEMP_2: backplane-2.1 backplane-2.0 main
 
-      REPO_TO_TRACK_STO_CLC_TEMP_3:     stolostron/cluster-curator-controller:stolostron-enginer
+      REPO_TO_TRACK_STO_CLC_TEMP_3:     stolostron/cluster-curator-controller:stolostron-engine
       BRANCHES_TO_TRACK_STO_CLC_TEMP_3: backplane-2.1 backplane-2.0 main
 
       REPO_TO_TRACK_STO_CLC_TEMP_4:     stolostron/managedcluster-import-controller:stolostron-engine
