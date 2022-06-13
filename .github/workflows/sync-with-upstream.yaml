@@ -118,7 +118,7 @@ jobs:
       BRANCHES_TO_TRACK_STO_SF_TEMP_4:  backplane-2.1 backplane-2.0 main
 
       REPO_TO_TRACK_STO_SF_TEMP_5:      stolostron/multicloud-operators-foundation:stolostron-engine
-      BRANCHES_TO_TRACK_STO_SF_TEMP_5:  backplane-2.0 main
+      BRANCHES_TO_TRACK_STO_SF_TEMP_5:  backplane-2.1 backplane-2.0 main
 
     steps:
     - name: Check out sync tools
