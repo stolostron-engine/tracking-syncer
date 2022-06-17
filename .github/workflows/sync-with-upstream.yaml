@@ -59,7 +59,7 @@ jobs:
       BRANCHES_TO_TRACK_HS_8: release-1.0:backplane-2.0
 
 
-      REPO_TO_TRACK_STO_BLD_TEMP_1:     stolostron/release:stolostron-engine
+      REPO_TO_TRACK_STO_BLD_TEMP_1:     stolostron/zzz-release:stolostron-engine
       BRANCHES_TO_TRACK_STO_BLD_TEMP_1: backplane-2.1 backplane-2.0 master
 
 
