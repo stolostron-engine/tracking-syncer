@@ -10,10 +10,12 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-      GITHUB_USER_NAME: acm-cicd
+      GITHUB_USER_NAME:  acm-cicd
       GITHUB_USER_EMAIL: acm-cicd@redhat.com
-      GITHUB_TOKEN: ${{ secrets.FF_GITHUB_TOKEN }}
-      LOG_DESTINATION: stolostron-engine/tracking-syncer:main
+      GITHUB_TOKEN:      ${{ secrets.FF_GITHUB_TOKEN }}
+      SLACK_WEBHOOK_ID:  ${{ secrets.FF_SLACK_WEBHOOK_ID }}
+      SLACK_MENTION:     ${{ secrets.FF_SLACK_MENTION }}
+      LOG_DESTINATION:   stolostron-engine/tracking-syncer:main
 
       REPO_TO_TRACK_HIVE:     openshift/hive:stolostron-engine/tracking-openshift-hive
       BRANCHES_TO_TRACK_HIVE: ocm-2.5-mce-2.0:backplane-2.0
