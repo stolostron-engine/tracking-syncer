@@ -1,0 +1,25 @@
+## Syncing stolostron/console with stolostron-engine/console
+
+## Status Summary:
+
+backplane-2.1 -> backplane-2.1: Already in sync.  
+backplane-2.0 -> backplane-2.0: Already in sync.  
+main -> main: Picked up 1 new commits.  
+
+### Branch backplane-2.1 -> backplane-2.1:
+
+Branches are already in sync, nothing to do.
+
+### Branch backplane-2.0 -> backplane-2.0:
+
+Branches are already in sync, nothing to do.
+
+### Branch main -> main:
+
+New commits:
+
+```
+22e69a642b4b274f5eb5e13a1c95aacf551ad98e counter zoom (#2389)
+```
+
+Status: Syncing successful
